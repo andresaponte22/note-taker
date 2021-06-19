@@ -1,4 +1,4 @@
-# README Generator
+# Note Taker
 ----
 <a href="https://img.shields.io/badge/License-MIT-brightgreen"><img src="https://img.shields.io/badge/License-MIT-brightgreen"></a>
 ## Table of Contents
@@ -7,7 +7,6 @@
 
 ### Description
 Note taker allows you to write, save, and delete notes
-![screenshot](https://i.imgur.com/dCUXGK3.png)
 ![GIF](https://i.imgur.com/cGDJ69O.gif)
 
 
