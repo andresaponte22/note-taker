@@ -17,7 +17,10 @@ app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/note
 app.get('/api/notes', (req, res) => res.json(notes))
 
 app.post('/api/notes', (req, res) => {
-
+  let newNote = req.body
+  notes.push(newNote)
+  fs.writeFileSync(path.join(__dirname, './db/db.json'), JSON.stringify(notes));
+  res.json(notes)
 })
 
 app.listen(PORT, () => {
